@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    width: 706px;
+    height: 198px;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.text {
+    display: flex;
+    width: 1039px;
+    height: 692px;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+#layout-text-green {
+    display: flex;
+    width: 849px;
+    height: 623px;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin-left: 296px;
+    margin-top: 224px;
+}

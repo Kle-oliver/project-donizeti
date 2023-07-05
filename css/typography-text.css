@@ -1,0 +1,76 @@
+h1 {
+    /* Layout */
+    /* display: flex;
+    width: 706px;
+    height: 394px;
+    flex-direction: column;
+    flex-shrink: 0; */
+
+    /* Typography */
+    font-size: 120px;
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h2 {
+    /* Layout */
+    /* display: flex;
+    width: 1250px;
+    height: 158px;
+    flex-direction: column;
+    flex-shrink: 0; */
+    border: 1px solid red;
+
+    /* Typography */
+    font-size: 120px;
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+p {
+    /* Layout */
+    /* display: flex;
+    width: 1039px;
+    height: 692px;
+    flex-direction: column;
+    flex-shrink: 0; */
+    /* margin: 53px; */
+    border: 1px solid red;
+
+    /* Typography */
+    font-size: 48px;
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#subtitle {
+    /* Layout */
+    /* display: flex;
+    width: 1039px;
+    height: 692px;
+    flex-direction: column;
+    flex-shrink: 0; */
+
+    /* Typography */
+    color: #FFF;
+    font-size: 48px;
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#typography-text-green {
+    color: #000;
+    font-size: 128px;
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
