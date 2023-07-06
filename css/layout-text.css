@@ -22,7 +22,7 @@
     margin-top: 84px;
 }
 
-.topic-layout {
+.box-topic {
     display: flex;
     width: 871px;
     height: 103px;
@@ -34,7 +34,7 @@
     margin-top: 61px;
 }
 
-.paragraph-layout {
+.box-paragraph {
     display: flex;
     width: 1039px;
     height: 692px;
@@ -46,11 +46,67 @@
     margin-top: 97px;
 }
 
-#text-green-layout {
+#paragraph-white {
+    height: 239px;
+}
+
+#paragraph-green {
     display: flex;
     width: 849px;
     height: 623px;
     flex-direction: column;
     flex-shrink: 0;
+    border: 1px solid red;
+}
+
+.container-block-text-white {
+    width: 1328px;
+    height: 239px;
+    flex-shrink: 0;
+    margin-left: 41px;
+    margin-top: 150px;
+    border: 1px solid red;
+}
+
+
+.box-block-text-white  {
+    display: inline-block;
+    width: 370px;
+    height: 239px;
+    flex-direction: column;
+    flex-shrink: 0;
+    border: 1px solid red;
+}
+
+#margin-block-text-white {
+    margin-left: 104px;
+}
+
+#container-contact {
+    width: 948px;
+    height: 205px;
+    flex-shrink: 0;
+    margin-left: 325px;
+    margin-top: 389px;
+    border: 1px solid red;
+}
+
+#box-logo-bluedeni {
+    display: inline-block;
+    width: 216px;
+    height: 190px;
+    flex-shrink: 0;
+    background: url(../images/contact/bluedeni/BlueDeni.png);   
+    border: 1px solid red;
+}
+
+#box-contact {
+    display: inline-block;
+    width: 430px;
+    height: 200px;
+    flex-shrink: 0;
+
+    margin-left: 179px;
+
     border: 1px solid red;
 }
