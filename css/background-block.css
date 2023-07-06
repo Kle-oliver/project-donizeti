@@ -15,7 +15,7 @@
     justify-content: left;
 } 
 
-#black-background {
+.black-background {
     background-color: #000;
     color:#FFF;    
 }
