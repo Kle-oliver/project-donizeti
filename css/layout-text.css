@@ -1,25 +1,56 @@
-.header {
+#title-layout {
     display: flex;
     width: 706px;
-    height: 198px;
+    height: 278px;
     flex-direction: column;
     flex-shrink: 0;
+    border: 1px solid red;
+
+    margin-left: 40px;
+    margin-top: 63px;
 }
 
-.text {
+#subtitle-layout {
+    display: flex;
+    width: 706px;
+    height: 182px;
+    flex-direction: column;
+    flex-shrink: 0;
+    border: 1px solid red;
+
+    margin-left: 40px;
+    margin-top: 84px;
+}
+
+.topic-layout {
+    display: flex;
+    width: 871px;
+    height: 103px;
+    flex-direction: column;
+    flex-shrink: 0;
+    border: 1px solid red;
+
+    margin-left: 53px;
+    margin-top: 61px;
+}
+
+.paragraph-layout {
     display: flex;
     width: 1039px;
     height: 692px;
     flex-direction: column;
     flex-shrink: 0;
+    border: 1px solid red;
+
+    margin-left: 53px;
+    margin-top: 97px;
 }
 
-#layout-text-green {
+#text-green-layout {
     display: flex;
     width: 849px;
     height: 623px;
     flex-direction: column;
     flex-shrink: 0;
-    margin-left: 296px;
-    margin-top: 224px;
+    border: 1px solid red;
 }
