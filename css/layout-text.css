@@ -1,3 +1,14 @@
+#bloco1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-top: 63px;
+    border: 1px solid red;
+
+    /* padding-bottom: 130px;
+    pedd */
+}
 #title-layout {
     display: flex;
     width: 706px;
@@ -5,9 +16,6 @@
     flex-direction: column;
     flex-shrink: 0;
     border: 1px solid red;
-
-    margin-left: 40px;
-    margin-top: 63px;
 }
 
 #subtitle-layout {

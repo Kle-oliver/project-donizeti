@@ -6,13 +6,19 @@ h1 {
     line-height: normal;
 }
 
-#subtitle-typography{
+#subtitle{
+    display: flex;
+    width: 706px;
+    height: 182px;
+    flex-direction: column;
+    flex-shrink: 0;
+    border: 1px solid red;
+
     font-family: Century Gothic;
     font-size: 48px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    
 }
 
 h2 {
