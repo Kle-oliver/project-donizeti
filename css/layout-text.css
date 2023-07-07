@@ -87,7 +87,7 @@
     height: 205px;
     flex-shrink: 0;
     margin-left: 325px;
-    margin-top: 389px;
+    margin-top: 290px;
     border: 1px solid red;
 }
 
@@ -109,4 +109,14 @@
     margin-left: 179px;
 
     border: 1px solid red;
+}
+
+#container-socials {
+    width: 646px;
+    height: 202px;
+    flex-shrink: 0;
+    margin-left: 397px;
+    margin-top: 120px;
+
+    border: 1px solid red;  
 }
