@@ -1,3 +1,4 @@
+/* ========= GERAL ========= */
 * {
     margin: 0;
     padding: 0;
@@ -12,31 +13,24 @@ html {
     background-color: #000;
 }
 
+/* ========= BUILT-IN ========= */
 h1 {
+
     font-size: 12rem;
     margin-bottom: 8.4rem;
-    border: 1px solid red;
 }
 
 h2 {
+    margin-top: 1px;
     font-size: 9.6rem;
     margin-bottom: 9.7rem;
-
     font-weight: normal;
-    
-    border: 1px solid red;
 }
     
 p {
     width: 90%;
     flex-shrink: 0;
-
     font-size: 4.8rem;
-    border: 1px solid red;
-}
-
-div {
-    border: 1px solid green;
 }
 
 section {
@@ -46,10 +40,24 @@ section {
     align-items: flex-start;
 }
 
+section:last-of-type {
+    flex-direction: column;
+}
+div {
+    margin-left: 2rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block; 
+    margin: 0 auto; 
+}
+
+/* ========= BACKGROUND ========= */
 #black {
     background-color: #000;
     color: #FFF;
-    border: 1px solid blue;
 }
 
 #green {
@@ -58,22 +66,11 @@ section {
     justify-content: center;
     align-items: center;
     color: #000;
-    border: 1px solid blue;
 }
-
-#green p{
-    width: 70%;
-    height: 62.3rem;
-    flex-shrink: 0;
-
-    font-size: 13.2rem;
-}
-
 
 #white {
     background-color: #FFF;
     color: #000;
-    border: 1px solid blue;
 }
 
 #image {
@@ -82,18 +79,59 @@ section {
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
-    border: 1px solid blue;
 }
 
-.x {
-    font-size: 9.6rem;
+/* ========= INIT ========= */
+#button-contact {
+    width: 51.9rem;
+    height: 10.9rem;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #BBED2F;
+    text-align: center;
+    font-size: 4.8rem;
+    font-family: Century Gothic;
+    margin-top: 5rem;
 }
 
+/* ========= VIDEOS ========= */
+.videos {
+    width: 38.9rem;
+    height: 31.5rem;
+    margin: auto;
+}
+
+/* ========= DISCOGRAPHY ========= */
+.albums {
+    display: flex;
+    justify-content: center;
+}
+
+.album{
+    width: 15.8rem;
+    height: 16.9rem;
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+/* ========= GOLD DISCO ========= */
+#green p{
+    width: 70%;
+    height: 62.3rem;
+    flex-shrink: 0;
+    font-size: 13.2rem;
+}
+
+/* ========= GALOPEIRA ========= */
 .cards {
   width: 90%;
   margin: auto;
   margin-top: 10rem;
-
   flex-direction: column;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -107,13 +145,44 @@ section {
     text-align: center;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    display: block; /* Isso remove o espaço extra abaixo da imagem */
-    margin: 0 auto; /* Centralizar horizontalmente */
+.card title p {
+    font-size: 9.6rem;
 }
 
+/* ========= CONTACT ========= */
+#blue-deni {
+    width: 21.6rem;
+    height: 20.5rem;
+}
+
+#contacts {
+    font-size: 3.6rem;
+    line-height: 1.5;
+}
+
+#siga-nas-redes {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-size: 3.6rem;
+}
+
+.centralized-row { 
+    align-self: center;
+    justify-content: center;
+    display: flex;
+}
+
+.centralized-column{ 
+    flex-direction: column;
+}
+
+.margin-socials {
+    margin: 10px;
+}
+
+/* ========= MEDIA QUERY ========= */
 @media (max-width: 562px) {
     html {
         font-size: 50%;
